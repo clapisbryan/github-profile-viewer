@@ -76,7 +76,7 @@ function App() {
             </div>
             {data.bio && (
               <div>
-                <p>{data.bio}</p>
+                <p className='text-sm md:text-base text-white text-center'>{data.bio}</p>
               </div>
             )}
             <div className='flex gap-10'>
